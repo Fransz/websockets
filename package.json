@@ -4,8 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "server:build": "tsc -b",
-    "server:run": "node server/server.js",
+    "server": "node server/server.js",
     "dev": "vite",
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
